@@ -99,6 +99,3 @@ y_test_inv = scaler.inverse_transform(y_test.reshape(-1, 1))
 rmse = np.sqrt(mean_squared_error(y_test_inv,preds))
 
 print("RMSE",rmse)
-
-
-# %%
