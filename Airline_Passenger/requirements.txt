@@ -1,0 +1,7 @@
+torch
+mlflow
+mlflow.pytorch
+numpy
+scikit-learn
+pandas
+os
