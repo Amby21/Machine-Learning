@@ -1,4 +1,6 @@
 # Python
+ml-env/
+Airline_Passenger/ml-env/
 __pycache__/
 *.pyc
 *.pyo
