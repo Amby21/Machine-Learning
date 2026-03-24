@@ -1,0 +1,27 @@
+# Python
+ml-env/
+Airline_Passenger/ml-env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.egg-info/
+
+# Data / outputs
+mlruns/
+*.db          # MLflow SQLite DB if local
+__pycache__/
+*.csv
+*.h5
+*.pt          # Saved PyTorch models
+*.pkl
+*.joblib
+
+# IDE / system
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets (never push)
+.env
