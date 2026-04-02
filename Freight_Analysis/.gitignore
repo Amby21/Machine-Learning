@@ -1,0 +1,40 @@
+# --- Python / Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- MLflow & Models ---
+# We generally ignore the raw tracking logs but keep the final 'models' folder
+# If your 'models' folder is very large (>100MB), consider using Git LFS
+scripts/mlruns/
+mlruns/
+.mlflow/
+.models/
+models/
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+.directory
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Data ---
+# Ignore the raw Olist CSVs to keep the repo light
+*.csv
+*.xlsx
+data/
