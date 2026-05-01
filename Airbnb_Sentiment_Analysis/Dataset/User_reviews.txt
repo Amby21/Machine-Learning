@@ -1,0 +1,4 @@
+name,review,sentiment
+Mohib,The place was amazing the also the food was amazing,neutral
+Ali,I love the place and the food tasted amazing,neutral
+Muhammad,I love the place. The taste of the food was great and the view was also amazing,positive
